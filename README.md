@@ -17,7 +17,7 @@ sdev
 ```
 
 #### Hasil
-![1a]()
+![1a](img/1a.png)
 
 ### 1.b
 
@@ -30,7 +30,7 @@ pval
 ```
 
 #### Hasil
-![1b]()
+![1b](img/1b.png)
 
 ### 1.c
 
@@ -44,7 +44,7 @@ zsum.test(mean.x=23500, sigma.x=3900, n.x=100, alternative = "less", mu=20000, c
 ```
 
 #### Hasil
-![2]()
+![2](img/2.png)
 
 ### 2.a
 
@@ -72,7 +72,7 @@ tsum.test(mean.x = 3.64, s.x = 1.67, n.x = 19, mean.y = 2.79, s.y = 1.32, n.y = 
 ```
 
 #### Hasil
-![3b]()
+![3b](img/3b.png)
 
 ### 3.c
 
@@ -83,7 +83,7 @@ z
 ```
 
 #### Hasil
-![3c]()
+![3c](img/3c.png)
 
 ### 3.d
 
@@ -93,7 +93,7 @@ qt(0.05, 2, lower.tail = TRUE)
 ```
 
 #### Hasil
-![3d]()
+![3d](img/3d.png)
 
 ### 3.e
 
@@ -119,7 +119,7 @@ ggboxplot(data, x = "Group", y = "Length",
 ```
 
 #### Hasil
-![4a]()
+![4a](img/4a.png)
 
 ### 4.b
 
@@ -129,7 +129,7 @@ bartlett.test(Length ~ Group, data)
 ```
 
 #### Hasil
-![4b]()
+![4b](img/4b.png)
 
 ### 4.c
 
@@ -140,7 +140,7 @@ model1
 ```
 
 #### Hasil
-![4c]()
+![4c](img/4c.png)
 
 ### 4.d
 
@@ -171,7 +171,7 @@ ggplot(data) +
 ```
 
 #### Hasil
-![4f]()
+![4f](img/4f.png)
 
 ## Soal 5
 
@@ -186,7 +186,8 @@ qplot(x = Temp, y = Light, geom = "point", data = GTL) + facet_grid(.~Glass, lab
 ```
 
 #### Hasil
-![5a]()
+![5a1](img/5a1.png)
+![5a2](img/5a2.png)
 
 ### 5.b
 
@@ -200,7 +201,7 @@ summary(anova)
 ```
 
 #### Hasil
-![5b]()
+![5b](img/5b.png)
 
 ### 5.c
 
@@ -211,7 +212,7 @@ data_summary
 ```
 
 #### Hasil
-![5c]()
+![5c](img/5c.png)
 
 ### 5.d
 
@@ -222,7 +223,7 @@ tukey
 ```
 
 #### Hasil
-![5d]()
+![5d](img/5d.png)
 
 ### 5.e
 
@@ -236,4 +237,4 @@ data_summary
 ```
 
 #### Hasil
-![5e]()
+![5e](img/5e.png)
