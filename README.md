@@ -36,6 +36,8 @@ pval
 
 #### Penjelasan
 
+Pada poin 1.b didapat p-value sebesar 0,99997. Karena menggunakan left tail, maka H0 ≤ 0,05 dan H1 > 0,05 sehingga dapat ditarik kesimpulan bahwa H0 ditolak.
+
 ## Soal 2
 
 #### Source Code
@@ -50,19 +52,29 @@ zsum.test(mean.x=23500, sigma.x=3900, n.x=100, alternative = "less", mu=20000, c
 
 #### Penjelasan
 
+Setuju, karena sampel menunjukkan rata-rata yang lebih dari 20.000 km.
+
 ### 2.b
 
 #### Penjelasan
 
+Pada output yang dihasilkan, didapat informasi bahwa H0 ditolak dengan persentase kepercayaan 95%
+
 ### 2.c
 
 #### Penjelasan
+
+P-value bernilai 1 (sangat besar) yang berarti H0 ditolak yang berarti mobil dikemudikan rata-rata lebih dari 20.000 km per tahun
 
 ## Soal 3
 
 ### 3.a
 
 #### Penjelasan
+
+H0 -> mu1 ≤ mu2
+
+H1 -> mu1 < mu2
 
 ### 3.b
 
@@ -99,9 +111,13 @@ qt(0.05, 2, lower.tail = TRUE)
 
 #### Penjelasan
 
+Karena nilai kritikal lebih besar daripada p-value maka H0 tidak dapat ditolak
+
 ### 3.f
 
 #### Penjelasan
+
+Tidak terdapat perbedaan antara saham yang ada di Bali dan yang ada di Bandung apabila ditinjau dari uji statistik
 
 ## Soal 4
 
@@ -146,9 +162,13 @@ model1
 
 #### Penjelasan
 
+P-value yang didapat adalah 0.6400632. Asumsikan 𝛼 = 5%, maka H0 ditolak yang berarti terdapat perbedaan panjang antara ketiga spesies atau rata-rata panjangnya berbeda.
+
 ### 4.e
 
 #### Penjelasan
+
+Apabila menggunakan asumsi 𝛼 = 5%, maka perbedaan panjang kucing yang signifikan adalah grup 2 terhadap grup 1 dan 3.
 
 ### 4.f
 
